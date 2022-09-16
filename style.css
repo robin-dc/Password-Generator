@@ -66,3 +66,9 @@ button:hover{
     height:2.5rem;
     font-weight: 600;
 }
+@media(max-width: 900px){
+    .container{
+        width:90%;
+        padding: 3rem 1rem;
+    }
+}
