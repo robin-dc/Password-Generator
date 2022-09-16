@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    color:white;
+    background-image: url(pass.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 2.4rem;
+}
+.wrapper{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #1F2937;
+    width:30%;
+    margin:0 auto;
+    padding: 5rem 3rem;
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border:2px solid white;
+}
+button{
+    background-color: #10B981;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    width: 12rem;
+    padding: .7rem .3rem;
+    font-size: 1rem;
+    margin:3rem 0 2rem 0;
+    cursor:pointer;
+}
+button:hover{
+    background-color:#058158;
+}
+.container h1:nth-child(2){
+    color:#10B981;
+}
+.pass{
+    width:100%;
+    padding:2rem 0;
+    margin:0 auto;
+    border-top: 1px solid #2F3E53;
+    display:flex;
+    gap:1rem;
+}
+.pass > div{
+    background-color: #273549;
+    width:50%;
+    border-radius:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #10B981;
+    height:2.5rem;
+    font-weight: 600;
+}
